@@ -18,11 +18,11 @@ public class Driver<T extends Transport> {
 
 
 
-    public void Start() {
+    public void start() {
         System.out.println("Поехали");
     }
 
-    public void Stop() {
+    public void stop() {
         System.out.println("Остановились");
     }
 
